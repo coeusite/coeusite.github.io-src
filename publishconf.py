@@ -22,3 +22,6 @@ DELETE_OUTPUT_DIRECTORY = False
 
 #DISQUS_SITENAME = ""
 #GOOGLE_ANALYTICS = ""
+
+# PLUGINS
+PLUGINS = ['plugins.asciidoc_reader',]
