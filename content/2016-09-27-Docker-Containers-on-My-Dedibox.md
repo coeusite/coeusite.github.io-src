@@ -13,7 +13,8 @@ Summary: 在 Dedibox 上部署 Docker 全记录
 
 言归正传，下面开始部署 Docker。
 
-== Docker 安装
+Docker 安装
+====================
 Check https://fedoraproject.org/wiki/Docker for details!
 
 首先更新个系统:
@@ -50,8 +51,8 @@ WantedBy=multi-user.target
 EOF
 ```
 
-== 安装各个应用
-
+安装各个应用
+---------------------
 显示目前运行的容器:
 ``` bash
 sudo docker info
@@ -62,7 +63,8 @@ sudo docker info
 sudo docker info -a
 ```
 
-=== 安装 Nginx Proxy 和 Lets-Encrypt
+安装 Nginx Proxy 和 Lets-Encrypt
+---------------------
 Check https://github.com/JrCs/docker-letsencrypt-nginx-proxy-companion for details！
 
 *下列操作均由 root 用户完成。*
@@ -161,7 +163,8 @@ systemctl enable docker@nginx-gen
 systemctl enable docker@nginx-letsencrypt
 ```
 
-=== 安装 Transmission (作为 Seedbox)
+安装 Transmission (作为 Seedbox)
+---------------------
 建立 Transmission 目录
 ``` bash
 mkdir -p /opt/transmission
@@ -206,7 +209,8 @@ systemctl enable docker@transmission
 ```
 
 
-=== 安装 Seafile (作为私有云)
+安装 Seafile (作为私有云)
+---------------------
 详见 https://github.com/coeusite/docker-seafile
 
 建立后台 MariaDB 数据库
