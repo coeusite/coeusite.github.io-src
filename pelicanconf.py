@@ -22,13 +22,13 @@ AUTHOR_FEED_RSS = None
 # Blogroll
 LINKS = (('Pelican', 'https://getpelican.com/'),
          ('Python.org', 'https://python.org/'),
-         ('Jinja2', 'https://jinja.pocoo.org/'),
+         ('Jinja2', 'http://jinja.pocoo.org/'),
         )
 
 # Social widget
 SOCIAL = ()
 
-DEFAULT_PAGINATION = 10
+DEFAULT_PAGINATION = 5
 
 # Uncomment following line if you want document-relative URLs when developing
 RELATIVE_URLS = True
