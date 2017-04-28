@@ -1,7 +1,7 @@
 Title: 在新 Dedibox 上部署 Docker
 Date: 2016-09-27
 Modified: 2017-04-28
-Category: Server
+Category: Post
 Tags: Docker, Dedibox, Online.net, Transmission, Seafile, Lets-Encrypt
 Slug: Docker Containers on My Dedibox
 Summary: 在 Dedibox 上部署 Docker 全记录
